@@ -67,8 +67,8 @@ Replace `your_telegram_bot_token` with the token you obtained from BotFather.
 
 1. Go to **APIs & Services > Credentials**.
 2. Click **Create Credentials** > **Service Account**.
-3. Set up the service account with the role **Editor**.
-4. Download the JSON key file and save it as `google_credentials.json` in the project root.
+3. Set up the service account with the role **Editor** or **Owner**.
+4. Download the JSON key file and save it as `google_credentials.json` in the project root under api-key directory.
 
 #### c. Share the Google Sheet
 
@@ -104,24 +104,12 @@ node index.js
 ```
 project_root/
 ├── api-key/google_credentials.json    # Google service account credentials
-├── index.js                   # Main bot logic
-├── package.json               # Node.js dependencies
-├── .gitignore                       # Gitignore file for environment variables
-├── .env                       # Environment variables
-└── README.md                  # Documentation
+├── index.js                           # Main bot logic
+├── package.json                       # Node.js dependencies
+├── .gitignore                         # Gitignore file for environment variables
+├── .env                               # Environment variables
+└── README.md                          # Documentation
 ```
-
----
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add new feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
-
----
 
 ## Troubleshooting
 
