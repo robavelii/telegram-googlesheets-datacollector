@@ -1,4 +1,14 @@
 {
+  "name": "telegram-sheets-bot",
+  "version": "1.0.0",
+  "description": "A simple telegram bot to collect survey and write to google sheets",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robel Fekadu",
+  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
     "googleapis": "^144.0.0",
